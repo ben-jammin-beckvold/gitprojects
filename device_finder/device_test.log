@@ -1,0 +1,8 @@
+Start Log [] [].
+
+/dev/pff/adcChecking devices before launch ...
+	- /dev/pff/adc
+	- /dev/pff/hub_disconnect
+	- /dev/pff/arduino_A104JTAB
+	- /dev/pff/tm4c123_prog
+	Attempt [1].  Found all devices.

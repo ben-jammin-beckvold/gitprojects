@@ -1,0 +1,49 @@
+Ben Beckvold
+HW #5 
+
+PROCESSES:
+1)  a) root/proc.c
+    b) line 12
+    c) it's a struct of type 'proc' which is an array of type 'proc'of size 64
+
+2)  a) root/proc.h
+    b) line 44
+    c) they are saved in a struct called 'context' which is part of the struct 'proc' that holds all the process info.
+
+3)  UNUSED: a process that hasn't been added to the process table, directly after the fork
+    EMBRYO: when a process gets a pid and kernel stack space
+    SLEEPING: a process that needs resources that are unavailable
+    RUNNABLE: has the resources to run but the CPU is not available
+    RUNNING: a process is currently using the CPU
+    ZOMBIE: a process after it terminates but before the parent releases the child process
+
+4)  swtch()
+
+5)  the swtch() function saves the state of the current registers onto the stack then loads the location of the new registers (the other call frame) on the stack, then pops those new register values into the respective registers. 
+
+6)  the scheduler is the function that calls the context switch. The scheduler determines which process gets CPU time. If a process is RUNNABLE the scheduler can determine if CPU time should be granted. If it does then it will call swtch() and send CPU the info it needs to start running the new process. The 'old' process then gets put in a state other than RUNNING, and the scheduler can determine when it will come back to it.
+
+PROCESS STARTUP:
+1)  in root/exec.c at line 68
+
+2)  the value of argv is passed into exec() as the second argument
+
+3)  in exec.c at line 87 in the function safestrcpy() it modifies the name of the process, subsequent lines after it modifies the rest of the process table.
+
+SYSTEM CALLS:
+1)  the open() function call in grep.c will make a call to the system using SYS_OPEN (defined in the macro) which places the number of the system call (open is #15, defined in the syscall.h header) in the '%eax' register that will relay which system call will be executed when the kernel takes over the execution (right now this is being done in user space). The kernel calls syscall() using the number in the %eax register as a reference to syscalls[](). Syscalls[]() is using the #15 to find the right function, sys_open() then makes that call.This is the function that creates the new file descriptor and file handle in the process table.
+
+FILES AND FILE DESCRIPTORS
+1)  the aollocated file descriptor is located in the process table under the struct *ofile. This is set in sysfile.c at line 44. The function determines where in the array the descriptor should go by starting at the first position in the array and iterativly checking each entry until a blank element is found.
+
+2)  the name of the array is ofile, which is a type 'file' which is a struct.
+
+3)  the name of the field is called 'inode'.
+
+4)  in sysfile.c at line 297 during the function call to create().
+
+5)  FD_PIPE and FD_NONE were the other 2 file handle types.
+
+6)  the 'pipe' struct is defined in pipe.c at line 12. The fields include a 'spinlock' struct which hold the info about the CPU holding the lock; 'data' the size of the data being sent through the pipe; 'nread' which holds the numbers of bytes read; 'nwrite' holds the numbers of bytes written; 'readopen' and 'writeopen' are booleans indicating whether the file descriptors are still open.
+
+7)  in the argfd function call at line 60, it finds the next open file descriptor for the process and assigns the 'dup' syscall file struct to it. This is a simple copy of the file descriptor integer. The file handle is copied inside the function filedup(), where is passed a file struct pointer and it tells the process that there is another file descriptor.

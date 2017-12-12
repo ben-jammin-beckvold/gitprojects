@@ -1,0 +1,10 @@
+<launch>
+
+
+<node name="usb_disconnect_node" pkg="pff_usb_disconnect" type="pff_usb_disconnect_node" output="screen">
+
+</node>
+
+<!-- <node name="rqt_testing" pkg="rqt_gui" type="rqt_gui" output="screen" /> -->
+
+</launch>
