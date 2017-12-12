@@ -1,0 +1,403 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 159, 223
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FPC SerialCom Viewer"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,10,193,20,20
+    LTEXT           "FPC SerialCom Version 2.2",IDC_STATIC,10,172,110,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004-2016",IDC_STATIC,10,182,110,8
+    DEFPUSHBUTTON   "OK",IDOK,99,199,50,14,WS_GROUP
+END
+
+IDD_FPCSERIALCOM_DIALOG DIALOGEX 0, 0, 432, 410
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FPC Serial Com"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Quit",IDOK,380,390,45,15
+    COMBOBOX        IDC_PORT,170,15,62,43,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BAUD,220,51,50,103,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BITS,70,51,50,94,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PARITY,120,51,50,43,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_STOP_BITS,170,51,50,43,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Port",IDC_STATIC,170,5,45,10,SS_CENTERIMAGE
+    CTEXT           "Baud Rate",IDC_STATIC4,220,40,45,10,SS_CENTERIMAGE
+    CTEXT           "Data bits",IDC_STATIC1,70,40,45,10,SS_CENTERIMAGE
+    CTEXT           "Parity",IDC_STATIC2,120,40,45,10,SS_CENTERIMAGE
+    CTEXT           "Stop Bits",IDC_STATIC3,170,40,45,10,SS_CENTERIMAGE
+    PUSHBUTTON      "Use Defaults",IDC_DEFAULT,275,50,55,14
+    PUSHBUTTON      "Test Hardware",IDC_TEST_HARDWARE,65,80,90,13,WS_DISABLED
+    PUSHBUTTON      " --- Capture Enrol --- ",IDC_CAPTURE_ENROL,65,95,90,13,WS_DISABLED
+    PUSHBUTTON      " --- Capture Verify --- ",IDC_CAPTURE_VERIFY,155,95,90,13,WS_DISABLED
+    PUSHBUTTON      "--- Capture Identify ---",IDC_CAPTURE_IDENTIFY,245,163,90,13,WS_DISABLED
+    PUSHBUTTON      "Save Tmpl to FLASH",IDC_COPY_TEMPLATE_RAM_TO_FLASH,245,125,90,13,WS_DISABLED
+    PUSHBUTTON      "Set Baud Rate",IDC_SET_BAUD_RATE,245,178,90,13,WS_DISABLED
+    PUSHBUTTON      "Firmware Version",IDC_FIRMWARE_VERSION,155,178,90,13,WS_DISABLED
+    PUSHBUTTON      "DL Tmpl: PC -> RAM",IDC_DOWNLOAD_TEMPLATE,155,125,90,13,WS_DISABLED
+    PUSHBUTTON      "Identify",IDC_IDENTIFY,245,193,90,13,WS_DISABLED
+    PUSHBUTTON      "Capture Verify FLASH",IDC_CAPTURE_VERIFY_FLASH,65,178,90,13,WS_DISABLED
+    PUSHBUTTON      "Upload Image",IDC_UPLOAD_SLICE,245,80,90,13,WS_DISABLED
+    PUSHBUTTON      "UL Tmpl: RAM -> PC",IDC_UPLOAD_TEMPLATE,65,125,90,13,WS_DISABLED
+    EDITTEXT        IDC_SLOT_EDIT,388,134,19,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CUSTOM_COMMAND,65,235,270,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Send",IDC_SEND,340,235,39,13,WS_DISABLED
+    LISTBOX         IDC_LIST1,5,255,420,115,NOT LBS_NOTIFY | LBS_MULTIPLESEL | LBS_DISABLENOSCROLL | WS_VSCROLL,WS_EX_DLGMODALFRAME | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    PUSHBUTTON      "Connect",IDC_CONNECT,275,15,55,13
+    CTEXT           "Status: Not connected..",IDC_STATUS,5,375,300,30,SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Clear Buffer",IDC_CLEAR,380,375,45,13
+    LTEXT           "Program Settings",IDC_TEXT1,10,10,31,18
+    CONTROL         "",IDC_DIVIDER1,"Static",SS_BLACKFRAME | SS_SUNKEN | NOT WS_VISIBLE,5,70,416,1
+    LTEXT           "Custom Command",IDC_TEXT6,10,230,33,15
+    LTEXT           "Basic Commands",IDC_TEXT3,10,80,42,24
+    LTEXT           "Template Handling",IDC_TEXT4,10,125,38,20
+    CONTROL         "",IDC_VERT_DIVIDER,"Static",SS_BLACKFRAME | SS_SUNKEN,60,0,1,255
+    PUSHBUTTON      "Cancel",IDC_CANCEL,245,95,90,13,WS_DISABLED
+    PUSHBUTTON      "Char",IDC_CHAR,345,375,30,13
+    PUSHBUTTON      "HEX",IDC_HEX,310,375,30,13
+    PUSHBUTTON      "Capture Image",IDC_CAPTURE,155,80,90,13,WS_DISABLED
+    CTEXT           "Hardware",IDC_STATIC,70,5,45,10,SS_CENTERIMAGE
+    CTEXT           "View mode",IDC_STATIC,120,5,45,10,SS_CENTERIMAGE
+    CONTROL         "",IDC_DIVIDER2,"Static",SS_BLACKFRAME | SS_SUNKEN,7,110,416,1
+    CONTROL         "",IDC_DIVIDER3,"Static",SS_BLACKFRAME | SS_SUNKEN,5,160,325,1
+    CONTROL         "",IDC_DIVIDER4,"Static",SS_BLACKFRAME | SS_SUNKEN | NOT WS_VISIBLE,9,225,416,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,5,35,416,1
+    LTEXT           "Serial UART PC Settings",IDC_TEXT2,10,45,43,18
+    PUSHBUTTON      "Delete All in FLASH",IDC_DELETE_ALL,155,140,90,13,WS_DISABLED
+    PUSHBUTTON      "UL Tmpl: FLASH -> PC",IDC_UPLOAD_TEMPLATE_FLASH,245,140,90,13,WS_DISABLED
+    PUSHBUTTON      "Delete Slot in FLASH",IDC_DELETE_SLOT,65,140,90,13,WS_DISABLED
+    LTEXT           "FLASH Slot",IDC_TEXT7,344,134,40,12,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    PUSHBUTTON      "Enrol RAM",IDC_ENROL_RAM,65,163,90,13,WS_DISABLED
+    PUSHBUTTON      "Download Image",IDC_DOWNLOAD_IMAGE,155,193,90,13,WS_DISABLED
+    PUSHBUTTON      "Verify RAM",IDC_VERIFY_RAM,155,163,90,13,WS_DISABLED
+    PUSHBUTTON      "Verify FLASH",IDC_VERIFY_FLASH,65,193,90,13,WS_DISABLED
+    LTEXT           "Additional Commands",IDC_TEXT5,10,180,42,24
+    GROUPBOX        "Command Input data",IDC_INPUT1,340,120,85,58
+    COMBOBOX        IDC_HARDWARE,70,15,50,43,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_VIEW,120,15,50,43,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_TEMPLATE_NAME,344,162,75,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Template file name",IDC_TEXT10,344,149,75,12,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CONTROL         "Compact Disp.",IDC_COMPACT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,310,393,59,10
+    PUSHBUTTON      "Upload All Templates",IDC_UPLOADALL,155,208,90,14,WS_DISABLED
+    PUSHBUTTON      "Download All Templates",IDC_DOWNLOADALL,245,208,90,14,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,2,0,1
+ PRODUCTVERSION 1,2,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "FPC SerialCom MFC Application"
+            VALUE "FileVersion", "1, 2, 0, 1"
+            VALUE "InternalName", "FPC SerialCom"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "FPC SerialCom.EXE"
+            VALUE "ProductName", "FPC SerialCom Application"
+            VALUE "ProductVersion", "1, 2, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 149
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 213
+    END
+
+    IDD_FPCSERIALCOM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 425
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 403
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FPCSERIALCOM_DIALOG DLGINIT
+BEGIN
+    IDC_PORT, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_BAUD, 0x403, 5, 0
+0x3639, 0x3030, "\000" 
+    IDC_BAUD, 0x403, 6, 0
+0x3431, 0x3034, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3931, 0x3032, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3832, 0x3038, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3833, 0x3034, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3735, 0x3036, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3637, 0x3038, 0x0030, 
+    IDC_BAUD, 0x403, 7, 0
+0x3131, 0x3235, 0x3030, "\000" 
+    IDC_BITS, 0x403, 2, 0
+0x0034, 
+    IDC_BITS, 0x403, 2, 0
+0x0035, 
+    IDC_BITS, 0x403, 2, 0
+0x0036, 
+    IDC_BITS, 0x403, 2, 0
+0x0037, 
+    IDC_BITS, 0x403, 2, 0
+0x0038, 
+    IDC_PARITY, 0x403, 4, 0
+0x444f, 0x0044, 
+    IDC_PARITY, 0x403, 5, 0
+0x5645, 0x4e45, "\000" 
+    IDC_PARITY, 0x403, 5, 0
+0x4f4e, 0x454e, "\000" 
+    IDC_STOP_BITS, 0x403, 2, 0
+0x0031, 
+    IDC_STOP_BITS, 0x403, 4, 0
+0x2e31, 0x0035, 
+    IDC_STOP_BITS, 0x403, 2, 0
+0x0032, 
+    IDC_HARDWARE, 0x403, 4, 0
+0x444f, 0x0044, 
+    IDC_HARDWARE, 0x403, 5, 0
+0x5645, 0x4e45, "\000" 
+    IDC_HARDWARE, 0x403, 5, 0
+0x4f4e, 0x454e, "\000" 
+    IDC_VIEW, 0x403, 4, 0
+0x444f, 0x0044, 
+    IDC_VIEW, 0x403, 5, 0
+0x5645, 0x4e45, "\000" 
+    IDC_VIEW, 0x403, 5, 0
+0x4f4e, 0x454e, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_FPCSERIALCOM_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About FPC SerialCom..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Swedish (Sweden) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SVE)
+LANGUAGE LANG_SWEDISH, SUBLANG_SWEDISH
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BAUDRATE_SELECTOR DIALOGEX 0, 0, 75, 188
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Baudrate"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,13,142,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,13,160,50,14
+    CONTROL         "9600",IDC_BAUD_9600,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,18,32,10
+    CONTROL         "14400",IDC_BAUD_14400,"Button",BS_AUTORADIOBUTTON,20,34,36,10
+    CONTROL         "19200",IDC_BAUD_19200,"Button",BS_AUTORADIOBUTTON,20,50,36,10
+    CONTROL         "28800",IDC_BAUD_28800,"Button",BS_AUTORADIOBUTTON,20,66,36,10
+    CONTROL         "38400",IDC_BAUD_38400,"Button",BS_AUTORADIOBUTTON,20,82,36,10
+    CONTROL         "57600",IDC_BAUD_57600,"Button",BS_AUTORADIOBUTTON,20,98,36,10
+    CONTROL         "115200",IDC_BAUD_115200,"Button",BS_AUTORADIOBUTTON,20,114,40,10
+    GROUPBOX        "Speed",IDC_STATIC,13,7,49,123
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_BAUDRATE_SELECTOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 68
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FPC SerialCom.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\FPC SerialCom.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_BAUDRATE_SELECTOR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Swedish (Sweden) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FPC SerialCom.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
