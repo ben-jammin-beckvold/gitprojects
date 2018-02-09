@@ -1,0 +1,35 @@
+Jan 21 Software team meeting
+
+## Circle CI for build server
+	-docker with 
+
+
+## Update Network:
+
+w/ Jon
+MenderIO
+- update Linux, system, robot code, embedded
+- starting point
+
+- updating Linux systems and use a stable system to trigger a lower level update
+- needs to be stable and reliable, large risk
+- research: do we need to make our own software
+
+Mobile Alpha due ~2 months
+~2 months beta
+beginning of June
+
+Update clubhouse
+- system update
+- external comms
+
+direction and distance: Gita <--> Phone
+	- bluetooth?
+	- compass comparison
+
+Car gurus
+
+Update certificates
+Hosting
+
+Compass on Gita

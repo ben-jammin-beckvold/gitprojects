@@ -1,0 +1,2 @@
+IOBoardStatus ioBoardStatus
+PowerBoardStatus pwrBoardStatus

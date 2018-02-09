@@ -1,0 +1,29 @@
+<!-- embedded board firmware interface from ROS -->
+
+<launch>
+
+<arg name="connectUSB" default="true" />
+<arg name="is_gita" default="1" />
+
+
+<rosparam command="load" file="$(find pff_embedded)/config/embedded.yaml"/>
+
+<!-- sets the initial values of the IO expander pins. only runs once -->
+<node name="usb_hub_controller" pkg="pff_embedded" type="usb_hub_control" output="screen"/>
+
+<group unless="$(arg connectUSB)">
+    <arg name="port" default="/dev/pff/io_board" doc="TM4C USB port"/>
+    <!--    <arg name="baud" default="115200" doc="Serial communication baudrate"/>  -->
+
+    <node name="io_board_interface" pkg="rosserial_python" type="serial_node.py">
+        <rosparam subst_value="true">
+            port: $(arg port)
+        </rosparam>
+        <param name="is_gita" value="$(arg is_gita)" />
+        <param name="accel" value="750" />
+        <param name="max_rpm" value="800"/>
+
+    </node>
+</group>
+
+</launch>

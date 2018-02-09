@@ -1,0 +1,6 @@
+uint32 ADC_CH0 
+uint32 ADC_CH1
+uint32 ADC_CH4
+uint32 ADC_CH5
+uint32 ADC_CH6
+uint32 ADC_CH7

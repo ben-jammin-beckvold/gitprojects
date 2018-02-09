@@ -1,0 +1,10 @@
+tempSensors tempStatus
+int16 P12V_Isense
+int16 P1V2_Isense
+int16 P3V3_Isense
+int16 P3v3Aux_Isense
+int16 P12V_Vsense
+int16 P1V2_Vsense
+int16 P3V3_Vsense
+int16 P3v3Aux_Vsense
+# loads...?

@@ -1,0 +1,11 @@
+<launch>
+  <arg name="timestamp_topic" default="heartbeat"/>
+  <arg name="timestamp_pub_interval" default="60" /> <!-- this is in seconds-->
+
+  <node name="embedded_timestamp" pkg="pff_embedded" type="embedded_timestamp" output="screen">
+    <param name="timestamp_topic" value="$(arg timestamp_topic)" />
+    <param name="publish_interval" value="$(arg timestamp_pub_interval)" />
+    <remap from="embedded_timestamp/$(arg timestamp_topic)" to="$(arg timestamp_topic)" />
+  </node>
+
+</launch>

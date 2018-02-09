@@ -1,0 +1,43 @@
+<!-- testing the embedded board firmware from ROS -->
+
+<launch>
+
+<!-- simple launch for testing. only runs the rosserial_python node -->
+<arg name="simple" default="false" />
+
+<arg name="connectUSB" default="true" />
+<arg name="is_gita" default="1" />
+
+<rosparam command="load" file="$(find pff_embedded)/config/embedded.yaml"/>
+
+<group unless="$(arg simple)">
+    <!--
+    <node name="plotter" pkg="rqt_plot" type="rqt_plot" />
+    
+    <node name="usb_hub_controller" pkg="pff_embedded" type="usb_hub_control" output="screen"/>
+
+    <node name="topic_mon" pkg="rqt_topic" type="rqt_topic"/>
+
+    <node name="topic_pub" pkg="rqt_publisher" type="rqt_publisher"/>
+
+    <node name="cmd_runner" pkg="pff_navigation" type="command_runner.py" output="screen"/>
+    -->
+</group>
+
+
+    <arg name="port" default="/dev/pff/io_board" doc="TM4C serial port"/>
+    <arg name="baud" default="115200" doc="Serial communication baudrate"/>
+
+    <node name="tiva_C" pkg="rosserial_python" type="serial_node.py">
+        <rosparam subst_value="true">
+            port: $(arg port)
+            baud: 115200
+        </rosparam>
+        <param name="is_gita" value="$(arg is_gita)" />
+        <param name="accel" value="750" />
+        <param name="max_rpm" value="800"/>
+
+    </node>
+
+
+</launch>

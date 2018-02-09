@@ -1,0 +1,3 @@
+usb_hub_address: 0x0c #ultrasonic rangefinder for testing
+
+dfu_reset_code: 123456789 #code to ensure firmware is not erased inadvertently
