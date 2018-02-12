@@ -1,6 +1,6 @@
 #include <SPI.h>
 
-#define DEBUG
+// #define DEBUG
 
 const int slaveSelectPin = 18 ;
 
@@ -36,8 +36,6 @@ byte compute_parity(uint16_t packet)
 	for (int i = 0; i < 15; i++)
 	{
 		count ^= packet & 1;
-		// Serial.print("count: ");
-		// Serial.println(packet & 1, BIN);
 		packet >>= 1;
 	}
 
@@ -128,7 +126,7 @@ unsigned long last_time = millis();
 
 void loop() {
 
-	byte returnByte_low, returnByte_high;
+	byte rtnBuf[2], rtnBuf2[2];
 	uint16_t rtnData_raw, rtnData;
 
 	// setup 16 bit command
@@ -140,18 +138,25 @@ void loop() {
 
 	// write command
 	digitalWrite(slaveSelectPin, LOW);
-	returnByte_high = SPI.transfer(cmd_high_byte);
-	returnByte_low = SPI.transfer(cmd_low_byte);
+	rtnBuf[0] = SPI.transfer(cmd_high_byte);
+	rtnBuf[1] = SPI.transfer(cmd_low_byte);
 	digitalWrite(slaveSelectPin, HIGH);
 
-	rtnData_raw = returnByte_high;
-	rtnData_raw = (rtnData_raw << 8) | returnByte_low;
+	rtnData_raw = (rtnBuf[0] << 8) | rtnBuf[1];
+	// Serial.println(rtnData_raw & 0x3fff);
 
 #ifndef DEBUG
-	Serial.write(angle_buf, 2);
+
+	// sending them in separate buffers changes how it seems to be read on the other end
+
+	rtnBuf[0] = rtnBuf[0] & 0x3f;
+	rtnBuf2[0] = rtnBuf[1];
+	Serial.write(rtnBuf, 2);
+	// Serial.write(rtnBuf2, 1);
+
 #endif
 
-delay(24);	// throttle the output for ~200 samples/s
+	delay(5);	// throttle the output for ~200 samples/s
 
 #ifdef DEBUG
 	static int eCount = 0;
@@ -162,7 +167,7 @@ delay(24);	// throttle the output for ~200 samples/s
 	{
 		// check the error bit
 		// if(false)
-		if ((returnByte_high & ERROR_BIT_MASK) == ERROR_BIT_MASK)
+		if ((rtnBuf[0] & ERROR_BIT_MASK) == ERROR_BIT_MASK)
 		{
 			eCount++;
 			errorHandler();		// for debugging
@@ -171,8 +176,7 @@ delay(24);	// throttle the output for ~200 samples/s
 		{
 			dataCount++;
 			// take the lower 14 bits
-			rtnData = rtnData_raw & 0x3FFF;
-			Serial.println(rtnData, DEC);
+			Serial.println(rtnData_raw & 0x3FFF, DEC);
 		}
 	}
 	else
