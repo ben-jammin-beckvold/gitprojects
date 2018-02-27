@@ -1,6 +1,5 @@
 EXECUTABLE=../mag_encoder_driver
 
-SERIAL_PATH=/home/benb/Downloads/serial/include/
 
 LIB_PATH=-L../
 
@@ -9,7 +8,7 @@ ODIR=obj
 LDIR =../lib
 
 CC=g++
-CFLAGS=-I$(IDIR) -I$(SERIAL_PATH)
+CFLAGS=-I$(IDIR) #-I$(SERIAL_PATH)
 
 LIBS=-lm -lserial
 
