@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+NOTENAME=
+
+if [ $# -eq 1 ]; then
+    NOTENAME=$1
+fi
+
+subl -n ~/Documents/gitprojects/Notes/$NOTENAME
+
