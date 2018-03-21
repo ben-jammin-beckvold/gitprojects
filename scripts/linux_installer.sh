@@ -23,6 +23,8 @@ check_install terminator
 check_install htop
 check_install tree
 check_install sublime-text
+check_install wmctrl
+check_install xdotool
 sudo snap install slack --classic
 
 sudo apt upgrade -y
@@ -41,5 +43,12 @@ sudo usermod -a -G dialout "$USER"
 echo "parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'; }" >> ~/.bashrc
 echo 'export PS1="\[\e[0;32m\]\u@\h:\[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\]$ \[\e[m\]"' >> ~/.bashrc
 
+# emergia
+cd ~/Downloads
+wget energia.nu/downloads/downloadv4.php?file=energia-1.6.10E18-linux64.tar.xz
+wget http://energia.nu/files/71-ti-permissions.rules
+
+sudo mv 71-ti-permissions.rules /etc/udev/rules.d/
+cd ~ && tar -xf ~/Downloads/downloadv4.php?file=energia-1.6.10E18-linux64.tar.xz
 
 
