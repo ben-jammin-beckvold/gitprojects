@@ -1,27 +1,29 @@
 # First target is default target, if you just type:  make
 
-FILENAME=hub_disconnect
+FILENAME=usb_switch
 SOURCE_EXT=.cpp
 SOURCEFILE=${FILENAME}${SOURCE_EXT}
 OUTFILE=${FILENAME}.o
 
+pwd=${PWD}
+LIB_DIR=-L${pwd}/libraries
 DEFINES=#-DTOGGLE_TEST
 INCLUDE_FLAGS=
 LIBRARIES=-lftd2xx
 
 default: run
 
-run: simulator
+run: build
 	sudo ./${OUTFILE}
 #	echo "finished"
 
-gdb: simulator 
+gdb: build 
 	gdb --args ${OUTFILE}
 
-simulator: ${SOURCEFILE}
-	g++ -g -Wall -o ${OUTFILE} ${SOURCEFILE} ${DEFINES} ${INCLUDE_FLAGS} ${LIBRARIES}
+build: ${SOURCEFILE}
+	g++ -g -Wall -o ${OUTFILE} ${SOURCEFILE} ${DEFINES} ${LIB_DIR} ${INCLUDE_FLAGS} ${LIBRARIES}
 
-analyze: simulator
+analyze: build
 	clang-check --analyze ${SOURCEFILE} -- -g
 
 emacs: ${SOURCEFILE}

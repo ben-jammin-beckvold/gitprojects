@@ -6,7 +6,7 @@
 
 //using enums from the serial library
 #define BAUD 115200
-#define PORT "/dev/ttyUSB0"
+#define PORT "/dev/launchpadEncoder"
 #define STOPBITS stopbits_one
 #define PARITY parity_none
 #define BYTESIZE eightbits

@@ -1,4 +1,4 @@
 # USB hub disconnect interface uses a custom driver that interferes with the built in kernel driver
 # this script unbinds the ftdi_sio driver from its usb device ID.
 
-ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", SYMLINK+="pff/hub_disconnect", MODE="0777", RUN+="/usr/local/bin/unbind_ftdi_sio.sh"
+ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", SYMLINK+="pff/usb_switch", MODE="0777", RUN+="/usr/local/bin/unbind_ftdi_sio.sh"
