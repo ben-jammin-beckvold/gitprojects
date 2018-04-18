@@ -15,6 +15,9 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add
 sudo apt-get install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
+# arm toolchain ppa
+sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa
+
 sudo apt update
 
 check_install vim
@@ -26,6 +29,7 @@ check_install sublime-text
 check_install wmctrl
 check_install xdotool
 check_install python3-pip
+check_install gitk
 sudo snap install slack --classic
 
 sudo apt upgrade -y
@@ -65,6 +69,16 @@ unzip downloads.saleae.com/logic/1.2.18/Logic%201.2.18%20(64-bit).zip
 mv Logic\ 1.2.18\ \(64-bit\)/ ~/
 cd ~/Logic\ 1.2.18\ \(64-bit\)/Drivers && ./install_driver.sh
 
+#VESC stuff
+cd ~
+check_install build-essential 
+check_install openocd 
+check_install libudev-dev 
+check_install qt-sdk
+check_install gcc-arm-embedded
+wget vedder.se/Temp/49-stlinkv2.rules
+sudo mv 49-stlinkv2.rules /etc/udev/rules.d/
+git clone https://github.com/vedderb/bldc.git vesc_firmware
 
 # reload udev rules
 sudo udevadm control --reload

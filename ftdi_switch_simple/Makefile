@@ -1,12 +1,12 @@
 # First target is default target, if you just type:  make
 
-FILENAME=usb_switch
+FILENAME=usbSwitch
 SOURCE_EXT=.cpp
 SOURCEFILE=${FILENAME}${SOURCE_EXT}
 OUTFILE=${FILENAME}.o
 
-pwd=${PWD}
-LIB_DIR=-L${pwd}/libraries
+#pwd=${PWD}
+#LIB_DIR=-L${pwd}/libraries
 DEFINES=#-DTOGGLE_TEST
 INCLUDE_FLAGS=
 LIBRARIES=-lftd2xx
@@ -21,7 +21,7 @@ gdb: build
 	gdb --args ${OUTFILE}
 
 build: ${SOURCEFILE}
-	g++ -g -Wall -o ${OUTFILE} ${SOURCEFILE} ${DEFINES} ${LIB_DIR} ${INCLUDE_FLAGS} ${LIBRARIES}
+	g++ -g -o ${OUTFILE} ${SOURCEFILE} ${DEFINES} ${LIB_DIR} ${INCLUDE_FLAGS} ${LIBRARIES}
 
 analyze: build
 	clang-check --analyze ${SOURCEFILE} -- -g

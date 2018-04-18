@@ -1,0 +1,4 @@
+#! /bin/bash
+
+cd ~/pff-ros-ws
+catkin_make --pkg pff_rangefinders

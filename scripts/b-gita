@@ -1,0 +1,18 @@
+#!/bin/bash
+
+display_help() {
+    echo -e "ssh into Gita given robot #"
+    echo -e "usage-"
+    echo -e "  b-gita [ROBOT_INDEX]\n"
+}
+
+if [ $# -eq 1 ];
+then 
+    RINDEX=$1  
+else
+    display_help
+    exit
+fi
+
+ssh robot@gita-$RINDEX.local 
+

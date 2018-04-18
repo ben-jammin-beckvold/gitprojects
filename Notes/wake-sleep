@@ -1,0 +1,28 @@
+functional flow discussion for waking and sleeping the robot (3/22)
+
+needs to Park before Sleep
+
+sleep timers
+battery
+external input
+
+boot time < 10sec
+full boot different than showing lights and UX
+
+blinking light while in sleep mode - which ones?
+
+UI panel message is asynchronous
+no realtime constraints
+
+power management states
+
+ability to turn peripherals off on IO
+
+OFF = no power
+SLEEP = low power
+
+microcontroller to do power sequencing - power initiation instead of a master toggle switch
+	use soft switch
+
+what is the UI feedback for low power mode
+
