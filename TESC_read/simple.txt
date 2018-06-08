@@ -1,0 +1,2680 @@
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6024894714
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6628551483
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6024894714
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6024894714
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6024894714
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6024894714
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5119400024
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5270328522
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5119400024
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: -1
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5421237946
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5572147369
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6175804138
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.6024894714
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5873985291
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 0
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: 0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
+motor_current: -0.0
+commanded_value: 0
+measured_velocity: 1
+measured_position: 0
+supply_voltage: 27.5723056793
+supply_current: 0.0
+estop: 0
+---
