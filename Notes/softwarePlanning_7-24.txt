@@ -1,0 +1,25 @@
+July 24th Milan
+
+Lunch meeting
+
+Retrospectives
+python ok as long as it's rewritten in C++ for Beta and beyond
+closing epics
+
+
+get info about motion boards and vision boards
+HULK SMASH!!!! gently
+
+roadkills need to be Done!! -- highest priority
+
+BMS timeline - schedule meeting with Devin / Jesse
+
+device tree final configs
+
+serial comms handling
+behavior executive integration - malcolm
+load animation configs from IO controller
+
+linux build environment - haha
+
+broadcom sensors

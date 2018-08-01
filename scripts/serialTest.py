@@ -3,7 +3,7 @@
 from serial import *
 import time
 
-dev_path = '/dev/ttyUSB'
+dev_path = '/dev/ttyUSB1'
 baud = 115200
 
 time.sleep(1)
