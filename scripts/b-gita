@@ -1,18 +1,65 @@
 #!/bin/bash
 
+# sudo cp b-gita /usr/local/bin
+
 display_help() {
-    echo -e "ssh into Gita given robot #"
-    echo -e "usage-"
-    echo -e "  b-gita [ROBOT_INDEX]\n"
+  echo -e "ssh into Gita given robot #"
+  echo -e "usage-"
+  echo -e "  b-gita [ROBOT_INDEX] [board]\n"
+  echo -e "  List of Boards\n"
+  echo -e "    -e Exec (default)"
+  echo -e "    -i IO"
+  echo -e "    -p Power"
+  echo -e "    -m Motion"
+  echo -e "    -v Vision"
+
+  exit
 }
 
-if [ $# -eq 1 ];
+GITA_IP=(
+10.0.0.196 
+10.0.0.172 
+10.0.0.192 
+10.0.0.126 
+10.0.0.133 
+10.0.0.146 
+10.0.0.191
+10.0.0.216
+10.0.0.219
+10.0.0.75
+10.0.0.160
+10.0.0.194
+10.0.0.213
+10.0.0.
+10.0.0.144
+)
+
+# set robot number
+if [[ $# == 1 || $# == 2 ]];
 then 
-    RINDEX=$1  
+    RINDEX=${GITA_IP[$1-1]}
 else
     display_help
-    exit
 fi
 
-ssh robot@gita-$RINDEX.local 
+# set board port number
+if [[ $# == 2 ]];
+then
+  if [[ $2 == "-e" ]]; then 
+    PORT=
+  elif [[ $2 == "-i" ]]; then
+    PORT="-p 22002"
+  elif [[ $2 == "-p" ]]; then
+    PORT="-p 22003"
+  elif [[ $2 == "-m" ]]; then
+    PORT="-p 22004"
+  elif [[ $2 == "-v" ]]; then
+    PORT="-p 22005"
+  else
+    display_help
+  fi
+fi
+
+echo $RINDEX
+ssh $PORT ubuntu@$RINDEX 
 

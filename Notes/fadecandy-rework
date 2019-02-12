@@ -1,0 +1,38 @@
+sprint breakout with fadecandy discussion
+
+
+get shield with fadecandy to lauren
+
+determine the number of shields
+- 2 for us (cody and ben/lauren)
+- 6 Vitra robots
+- rework others for after
+
+pros/cons of rework
+- do fadecandy need to be soldered
+- removal of caps
+- line driver buffer
+
+shield swap installation time
+
+--------
+
+shields with attached fadecandy boards
+- lots of them in various places around the office
+- Some have the 8/22 rework (remove all caps)
+- some only have the 6/29 rework (install headers, fadecandy, headlight driver)
+- The only thing we need to do would be to add 2 caps back to the 2 channels we are using OR remove 2 caps from the 2 channels we aren't using. Easy through hole.
+
+There are plenty of USB cables
+
+UI Panel cable rework
+- swap all pins (GND, PWR, TX, RX) on one end.
+
+Assembly
+- need to get some pins for the Mikrobus header. Some of the shields have them attached.
+- rear rangers assembly instructions need to specify which jack to use.
+
+line driver rework (hardest one)
+- attach the Schmitt trigger buffer to the TX UART line going to the UI panel.
+- need to cut a trace and glue the component down.
+- the fadecandy is kinda in the way. this is the biggest hassle.
