@@ -1,0 +1,2 @@
+ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", MODE:="0666", OWNER="gita" SYMLINK+="pff/usb_gps"
+ud
