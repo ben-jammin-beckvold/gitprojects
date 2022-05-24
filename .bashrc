@@ -147,7 +147,7 @@ export MT_REGD_HOST=192.168.1.2
 export MT_REGD_PORT=2525
 
 # monotony database
-export PGPASSWORD=14ca445b36d37225399e13c605e3da94
+export PGPASSWORD=
 export PGUSER=vision
 export PGDATABASE=vision
 export PGHOST=db.monotonylabs.com
